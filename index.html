@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="icon" type="image/x-icon" href="imgs/BookLogo.png">
+    <title>Book Hall - Fantastic Reads and Where to Find Them</title>
+</head>
+<body>
+    <header>
+        <div id="top">
+            <div id="toptxt">
+                <a href="index.html">
+                    <div>
+                        <img id="logo" src="imgs/BookLogo.png" alt="Book Hall">
+                        <h1 id="title">Book Hall</h1>
+                    </div>
+                </a>
+            </div>
+            <div id="headwrap"> </div>
+            <img id="shelf" src="imgs/bookshelve.png" alt="bookshelve">
+        </div>
+        <div id="navcontainer">
+            <div id="topnav" class="nav">
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <img src="imgs/menu.png" class="menu">
+                </a>
+                <a href="index.html">Home</a>
+                <a href="#bookslides">Books</a>
+                <a href="#revwrap">Reviews</a>
+                <a href="#ogslides">Original Works</a>
+                <a href="#contact">Contact Us</a>
+            </div>
+            <input type="text" placeholder="Search...">
+        </div>
+        
+        <!--JS MENU-->
+        <script>
+            function myFunction() {
+                var x = document.getElementById("topnav");
+                if (x.className === "nav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "nav";
+                }
+                }
+        </script>
+
+    </header>
+
+    <main>
+        <section>
+            <div id="home">
+                <div>
+                    <img id="homeimg" src="imgs/pexels-engin-akyurt-2952871.jpg" alt="library">
+                </div>
+                <div id="hometext">
+                    Discover books from different sources, reviews, and original works!
+                </div>
+            </div>
+        </section>
+
+        <!--Book Slides-->
+        <div class="headcont">
+            <h1 class="secthead">Books</h1>
+        </div>
+        <section id="bookslides" class="carousel" aria-label="Gallery">
+            <div id="slides">
+                    <ol class="carousel__viewport">
+                        <li id="carousel__slide1"
+                            tabindex="0"
+                            class="carousel__slide">
+                            <div class="carousel__snapper">
+                            <a href="#carousel__slide4"
+                                class="carousel__prev">Go to last slide</a>
+                            <a href="#carousel__slide2"
+                                class="carousel__next">Go to next slide</a>
+                                <div class="slidecont">
+                                    <a href="https://readnovelfull.com/reincarnation-of-the-strongest-sword-god-v2.html">
+                                        <img class="bookimg" src="imgs/ROTSSG.jpg" title="Reincarnation Of The Strongest Sword God">
+                                    </a>
+                                    <div class="desccont">
+                                        <h2 class="booktitle"><a id="tlink" href="https://readnovelfull.com/reincarnation-of-the-strongest-sword-god-v2.html"
+                                            >Reincarnation Of The Strongest Sword God</a></h2>
+                                        <p class="bookdesc">
+                                            Starting over once more, he has entered this “living game” again in order to control his own fate.<br></br>
+                                            This time, he will not be controlled by others.<br></br>
+                                            Previously the Level 200 Sword King, he will rise to a higher peak in this life...<br></br>
+                                        </p>
+                                        <a class="read" href="https://readnovelfull.com/reincarnation-of-the-strongest-sword-god/chapter-1-starting-over-v1.html" 
+                                        target="_blank">Read More</a>
+                                    </div>
+                                </div>
+
+                        </li>
+                        <li id="carousel__slide2"
+                            tabindex="0"
+                            class="carousel__slide">
+                            <div class="carousel__snapper"></div>
+                            <a href="#carousel__slide1"
+                                class="carousel__prev">Go to previous slide</a>
+                            <a href="#carousel__slide3"
+                                class="carousel__next">Go to next slide</a>
+                                <div class="slidecont">
+                                    <a href="https://www.wuxiap.com/novel/a-hundredfold-training-system-instantly-upgrades-999.html">
+                                        <img class="bookimg" src="imgs/AHTSIU999.jpg" title="A Hundredfold Training System Instantly Upgrades 999">
+                                    </a>
+                                    <div class="desccont">
+                                        <h2 class="booktitle"><a id="tlink" href="https://www.wuxiap.com/novel/a-hundredfold-training-system-instantly-upgrades-999.html">
+                                            A Hundredfold Training System Instantly Upgrades 999</a></h2>
+                                        <p class="bookdesc">
+                                            Take a step, experience 10,100 times, basic stance advanced to yellow stance!<br></br>
+                                            Swing a punch, experience 10,100 times, basic boxing method advanced to...<br></br>
+                                        </p>
+                                        <a class="read" href="https://www.wuxiap.com/novel/a-hundredfold-training-system-instantly-upgrades-999_1.html" 
+                                        target="_blank">Read More</a>
+                                    </div>
+                                </div>
+
+                        </li>
+                        <li id="carousel__slide3"
+                            tabindex="0"
+                            class="carousel__slide">
+                            <div class="carousel__snapper"></div>
+                            <a href="#carousel__slide2"
+                                class="carousel__prev">Go to previous slide</a>
+                            <a href="#carousel__slide4"
+                                class="carousel__next">Go to next slide</a>
+                                <div class="slidecont">
+                                    <a href="https://boxnovel.com/novel/the-legendary-mechanic-boxnovel/">
+                                        <img class="bookimg" src="imgs/TLM.jpg" title="The Legendary Mechanic">
+                                    </a>
+                                    <div class="desccont">
+                                        <h2 class="booktitle"><a id="tlink" href="https://boxnovel.com/novel/the-legendary-mechanic-boxnovel/">
+                                            The Legendary Mechanic</a></h2>
+                                        <p class="bookdesc">
+                                            What do you do when you wake up and find yourself inside the very game that you love?<br></br>
+                                            What do you do when you realize you that you have not only become an NPC &#8212; you have even been...<br></br>
+                                        </p>
+                                        <a class="read" href="https://boxnovel.com/novel/the-legendary-mechanic-boxnovel/chapter-1/" 
+                                        target="_blank">Read More</a>
+                                    </div>
+                                </div>
+
+                        </li>
+                        <li id="carousel__slide4"
+                            tabindex="0"
+                                class="carousel__slide">
+                            <div class="carousel__snapper"></div>
+                            <a href="#carousel__slide3"
+                                class="carousel__prev">Go to previous slide</a>
+                            <a href="#carousel__slide1"
+                                class="carousel__next">Go to first slide</a>
+                                <div class="slidecont">
+                                    <a href="https://readnovelfull.com/rebirth-of-the-thief-who-roamed-the-world-v1.html">
+                                        <img class="bookimg" src="imgs/ROTTWRTW.jpg" title="Rebirth of the Thief Who Roamed the World">
+                                    </a>
+                                    <div class="desccont">
+                                        <h2 class="booktitle"><a id="tlink" href="https://readnovelfull.com/rebirth-of-the-thief-who-roamed-the-world-v1.html">
+                                            Rebirth of the Thief Who Roamed the World</a></h2>
+                                        <p class="bookdesc">
+                                            The world&apos;s largest VRMMO, Conviction, was almost like a second world for humanity. It had integrated itself 
+                                            into the ...<br></br>
+                                        </p>
+                                        <a class="read" href="https://readnovelfull.com/rebirth-of-the-thief-who-roamed-the-world/chapter-1-rebirth.html" 
+                                        target="_blank">Read More</a>
+                                    </div>
+                                </div>
+
+                        </li>
+                        </ol>
+                        <aside class="carousel__navigation">
+                            <ol class="carousel__navigation-list">
+                                <li class="carousel__navigation-item">
+                                <a href="#carousel__slide1"
+                                    class="carousel__navigation-button">Go to slide 1</a>
+                                </li>
+                                <li class="carousel__navigation-item">
+                                <a href="#carousel__slide2"
+                                    class="carousel__navigation-button">Go to slide 2</a>
+                                </li>
+                                <li class="carousel__navigation-item">
+                                <a href="#carousel__slide3"
+                                    class="carousel__navigation-button">Go to slide 3</a>
+                                </li>
+                                <li class="carousel__navigation-item">
+                                <a href="#carousel__slide4"
+                                    class="carousel__navigation-button">Go to slide 4</a>
+                                </li>
+                            </ol>
+                        </aside>
+            </div>
+        </section>
+
+        <!--Review Section-->
+        <div class="headcont">
+            <h1 class="secthead">Reviews</h1>
+        </div>
+        <section>
+            <div id="revwrap">
+                <div id="vidwrap">
+                    <iframe class="vid" id="ROTTWRTWvid" src="https://www.youtube.com/embed/SABTWyxYPwY" title="Book Review  - ROTTWRTW (*Spoiler Alert*)" 
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+                    picture-in-picture; web-share" allowfullscreen></iframe>
+                    <h2 id="revtl">Titles</h2>
+                    <div id="revnav">
+                        <a href="#ROTTWRTWvid" id="ROTTWRTW">Rebirth of the Thief Who Roamed the World</a>
+                    </div>
+                    <h2 id="revwarning">**Warning! May contain spoilers!**</h2>
+                </div>
+           
+            </div>
+
+        </section>
+
+        <!--OG Works Section-->
+        <div class="headcont">
+            <h1 class="secthead">Original Works</h1>
+        </div>
+        <section id="ogslides" class="carousel" aria-label="Gallery">
+            <div id="slides">
+                    <ol class="carousel__viewport">
+                        <li id="carousel__slide5"
+                            tabindex="0"
+                            class="carousel__slide">
+                            <div class="carousel__snapper">
+                            <a href="#carousel__slide6"
+                                class="carousel__prev">Go to last slide</a>
+                            <a href="#carousel__slide6"
+                                class="carousel__next">Go to next slide</a>
+                                <div class="slidecont">
+                                    <a href="close_at_hand.html">
+                                        <img class="bookimg" src="imgs/Close at hand.png" title="Close at Hand (A Short Story)">
+                                    </a>
+                                    <div class="desccont">
+                                        <h2 class="booktitle"><a id="tlink" href="close_at_hand.html"
+                                            >Close at Hand (A Short Story)</a></h2>
+                                        <p class="bookdesc">
+                                            Klein gained consciousness and was startled at what he saw.
+                                            It seemed that he got a second chance in life.
+                                            Remembering ...<br></br>
+                                        </p>
+                                        <a class="read" href="close_at_hand.html" 
+                                        target="_blank">Read More</a>
+                                    </div>
+                                </div>
+
+                        </li>
+                        <li id="carousel__slide6"
+                            tabindex="0"
+                            class="carousel__slide">
+                            <div class="carousel__snapper"></div>
+                            <a href="#carousel__slide5"
+                                class="carousel__prev">Go to previous slide</a>
+                            <a href="#carousel__slide5"
+                                class="carousel__next">Go to next slide</a>
+                                <div class="slidecont">
+                                    <div class="desccont">
+                                        <h2 class="booktitle">
+                                            Nothing to see here...
+                                        </h2>
+                                    </div>
+                                </div>
+                            </li>
+                        </ol>
+                        <aside class="carousel__navigation">
+                            <ol class="carousel__navigation-list">
+                                <li class="carousel__navigation-item">
+                                <a href="#carousel__slide5"
+                                    class="carousel__navigation-button">Go to slide 5</a>
+                                </li>
+                                <li class="carousel__navigation-item">
+                                <a href="#carousel__slide6"
+                                    class="carousel__navigation-button">Go to slide 6</a>
+                                </li>
+                        </aside>
+            </div>
+        </section>
+        <a href='#' class="stt" title="scroll to top"></a>
+    </main>
+    <hr></hr>
+    <div class="shawarma"> </div>
+
+    <!--Contact Section-->
+    <footer>
+        <div class="footercont">
+            <p class="about" id="contact">
+                A website for books made for people that love books. Intended for a school project/activity but it can also be a simple website for book readers. This website gathers books from novel/book websites that are free to read. Not all books are mine as most of them are from their own respective websites and authors.
+            </p><br><br><br>
+        
+            <h1 class="contacthead">
+                Contact
+            </h1>
+        
+            <p class="contactinfo">
+                Email: ryuitsusato@gmail.com
+            </p>
+            <a class="email" href="mailto:ryuitsusato@gmail.com">Send an email</a> 
+                <div class="logocntr">
+                        <a href="https://www.facebook.com/just.left.BLaNk">
+                            <img class="slogo" src="imgs/facebook.png" title="Facebook">
+                        </a>
+                        <a href="mailto: ryuitsusato@gmail.com">
+                            <img class="slogo" src="imgs/gmail.png" title="Gmail">
+                        </a>
+                        <a href="mailto: derieledzelquisao@yahoo.com">
+                            <img class="slogo" src="imgs/yahoo.png" title="Yahoo">
+                        </a>
+                </div>
+        </div>
+    </footer>
+
+</body>
+</html>
