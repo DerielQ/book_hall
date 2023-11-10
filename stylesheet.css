@@ -873,7 +873,7 @@ button{
 
 /*Original Works*/
 .border{
-    align-items: center;
+    text-align: center;
     font-family: 'Gill Sans MT';
     font-size: 40px;
 }
